@@ -12,5 +12,5 @@ addHouseButton.addEventListener("mousedown", function(){
     let newHouse = createListing(priceInput.value, bedroomInput.value, bathroomInput.value, addressInput.value);
 
     view.addListing(newHouse)
-    console.log("oh yeah")
 })
+

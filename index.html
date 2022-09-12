@@ -18,12 +18,27 @@
             <input id="bathrooms" placeholder="bathrooms..."/>
             <input id="address" placeholder="address..."/>
             <button id="addHouse">SUBMIT</button>
+            <select id = "sortBy" onchange = "" >  
+                <!-- https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript -->
+                <option value="" disabled selected> Sort by... </option> 
+                <!-- https://stackoverflow.com/questions/5805059/how-do-i-make-a-placeholder-for-a-select-box  -->
+                <option> price </option>  
+                <option> bedrooms </option>  
+                <option> bathrooms </option>  
+            </select>
+            <select id = "order..." onchange = "" >  
+                <!-- https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript -->
+                <option value="" disabled selected> Sort by... </option> 
+                <!-- https://stackoverflow.com/questions/5805059/how-do-i-make-a-placeholder-for-a-select-box  -->
+                <option> ascending </option>  
+                <option> descending </option>   
+            </select>
         </div>
         <div id="views">
 
         </div>
     </main>
-    <script src="js/index.js"></script>
     <script src="js/classes.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
